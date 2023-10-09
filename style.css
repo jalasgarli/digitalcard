@@ -1,6 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    justify-content: center;
+    align-items: center;
+
+}
+
+#card {
+    background-color: white;
+    text-align: center;
+}
+
+.hr1 {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/hr1.png") no-repeat center center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    width: 500px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #ddd;
+}
+
+.card_main {
+    padding: 0 2.3rem;
+}
+
+.card_main p {
+    font-size: 13px;
+}
+
 #information-button {
     background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png") no-repeat center center #08aeac;
-    
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.6s;
+    margin-bottom: 15px;
 }
 
 #information-button:hover {
