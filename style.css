@@ -1,0 +1,27 @@
+#information-button {
+    background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png") no-repeat center center #08aeac;
+    
+}
+
+#information-button:hover {
+    background-color: red;
+}
+
+
+#icons i {
+    color: white;
+    background-color: #333333;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+
+
+}
+#icons i:hover {
+    background-color: #08aeac;
+}
+
+h1 {
+    background-color: blue;
+}
