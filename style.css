@@ -4,11 +4,6 @@ body {
 }
 
 
-main {
-    justify-content: center;
-    align-items: center;
-
-}
 
 #card {
     background-color: white;
@@ -29,6 +24,7 @@ section {
     height: 570px;
     display: flex;
     flex-direction: column;
+    
 }
 
 img {
@@ -36,6 +32,11 @@ img {
     height: 200px;
     border-radius: 50%;
     border: 6px solid #ddd;
+}
+
+
+#name {
+    color: #08aeac;;
 }
 
 .card_main {
@@ -58,7 +59,6 @@ img {
     background-color: red;
 }
 
-
 #icons i {
     color: white;
     background-color: #333333;
@@ -66,13 +66,10 @@ img {
     height: 30px;
     text-align: center;
     display: inline-block;
-
-
+    transition: all 0.3 ease-in-out;
+    font-size: 14px;
+    line-height: 30px;
 }
 #icons i:hover {
     background-color: #08aeac;
-}
-
-h1 {
-    background-color: blue;
 }
