@@ -1,0 +1,85 @@
+body {
+    background: url("/Users/javidalasgarli/Assignment1/digitalcard/6B7F98.png");
+}
+
+main {
+    margin: 20px;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+    display: block;
+}
+
+#projects {
+    border-radius: 8px;
+    margin: 15px 10px;
+    padding: 15px;
+    background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png") repeat-x top;
+    background-color: #ff7f50;
+    transition: all 0.2 ease-in-out;
+}
+
+#projects:hover {
+    
+}
+
+.proj_p {
+    text-align: inherit;
+}
+
+#experience {
+    border-radius: 8px;
+    margin: 15px 10px;
+    padding: 15px;
+    background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png") repeat-x top;
+    background-color: #ff7f50;
+    transition: all 0.2 ease-in-out;
+}
+
+.hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/hr1.png") no-repeat center center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#awards {
+    border-radius: 8px;
+    margin: 15px 10px;
+    padding: 15px;
+    background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png") repeat-x top;
+    background-color: #ff7f50;
+    transition: all 0.2 ease-in-out;
+}
+
+#skills {
+    border-radius: 8px;
+    margin: 15px 10px;
+    padding: 15px;
+    background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png") repeat-x top;
+    background-color: #ff7f50;
+    transition: all 0.2 ease-in-out;
+}
+
+footer {
+    margin-left: 30px;
+}
+
+#icons i {
+    color: white;
+    background-color: #333333;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.3 ease-in-out;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#icons i:hover {
+    color: #333333;
+    background-color: white;
+}
