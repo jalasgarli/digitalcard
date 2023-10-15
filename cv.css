@@ -83,10 +83,6 @@ img {
     transition: all 0.2 ease-in-out;
 }
 
-#projects:hover {
-    
-}
-
 .proj_p {
     text-align: inherit;
 }

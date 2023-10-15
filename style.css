@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: T;
     margin: 0;
     padding: 0;
     background: rgb(113, 126, 150);
@@ -63,7 +63,6 @@ img {
     border-radius: 50%;
     border: 6px solid #ddd;
 }
-
 
 #name {
     color: white;
