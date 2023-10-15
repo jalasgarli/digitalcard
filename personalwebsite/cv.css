@@ -3,15 +3,76 @@ body {
     background: url("/Users/javidalasgarli/Assignment1/digitalcard/6B7F98.png");
 }
 
-header ul li{
+
+#nav_bar ul li {
     display: inline;
 }
+
+
+#nav_bar {
+    margin: 15px 10px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+ul {
+    border-radius: 8px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff7f50; 
+}
+
+.nav_2:hover {
+    opacity: 0.1;
+}
+
+ul li {
+    color: black;
+    float: left;
+}
+
+.nav_1 {
+    display: block;
+    color: black;
+    text-align: center;
+    padding:  14px 16px;
+    text-decoration: none;
+}
+
+
 
 main {
     margin: 20px;
     border-radius: 5px;
-    /* border: 1px solid red; */
     display: block;
+}
+
+table {
+    text-align: center;
+}
+
+#table_part {
+    background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png") repeat-x top;
+    background-color: #ff7f50;
+    transition: all 0.2 ease-in-out;
+    border-radius: 8px;
+    margin: 15px 10px;
+    padding: 15px;
+}
+
+#name {
+    text-align: center;
+    text-decoration: solid;
+    text-size-adjust: 20px;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+img {
+    border: 3px solid #ddd;
+    border-radius: 6px;
 }
 
 #projects {
