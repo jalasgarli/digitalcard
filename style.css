@@ -45,7 +45,16 @@ section > span {
     height: 20px;
 }
 
+.title h1 {
+    font-size: 36px !important;
+    margin: 10px 0;
+}
 
+.title h2 {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
 
 img {
     width: 200px;
