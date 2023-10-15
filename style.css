@@ -20,7 +20,6 @@ main {
     background-color: #ff7f50;
     text-align: center;
     padding: 2rem;
-    border-radius: 8px;
 }
 
 .hr1 {
@@ -80,6 +79,12 @@ img {
     margin-bottom: 15px;
 }
 
+#information-button p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 12px;
+  }
+
 #information-button:hover {
     background-color: white;
     color:  #333333;
@@ -103,4 +108,10 @@ img {
     background-color: white;
     color:  #333333;
    
+}
+
+section > span {
+    background-color: black;
+    width: 100%;
+    height: 5px;
 }
