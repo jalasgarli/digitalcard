@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("/Users/javidalasgarli/Assignment1/digitalcard/6B7F98.png");
+    
+    line-height: 1.42857143;
+}
+
+.Contact_us_word {
+    text-align: center;
+}
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    /* border: 1px solid black; */
+    background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-card2.png") repeat-x right top #f4f4f4;
+    margin: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    background-color: #ff7f50;
+    border-radius: 8px;
+    height: 360px;
+}
+
+.description {
+    width: 140px;
+    height: 160px;
+}
+
+#submit {
+    background: url("http://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png") no-repeat center center #08aeac;
+    border-radius: 8px;
+    padding: 10px;
+    transition: 0.6s;
+    margin: 15px;
+    text-align: center;
+}
+
+#submit:hover {
+    background-color: black;
+}
